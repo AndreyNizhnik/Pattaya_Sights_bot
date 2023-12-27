@@ -279,4 +279,5 @@ def handle_docs_audio(message):
     bot.reply_to(message, f"Gorgeous video 🥰️!")
 
 
-bot.infinity_polling()
+if __name__ == "__main__":
+    bot.infinity_polling()
